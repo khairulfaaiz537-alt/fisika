@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pemanasan Global Interaktif - Kelompok Khairul Faaiz dkk</title>
+
+<style>
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background: linear-gradient(to bottom, #ccefff, #ffffff);
+}
+
+header{
+    background: #8b0000; /* Darkred yang lebih dalam */
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    border-bottom: 5px solid #2e7d32;
+}
+
+.kelompok-box {
+    background: rgba(255, 255, 255, 0.15);
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 1px solid rgba(255,255,255,0.3);
+    font-size: 0.95rem;
+}
+
+.kelompok-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section{
+    background:white;
+    margin:20px auto;
+    max-width: 800px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h2{
+    color:darkgreen;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+button{
+    display:block;
+    width: 100%;
+    max-width: 400px;
+    margin:10px 0;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:darkgreen;
+    color:white;
+    cursor:pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+    text-align: left;
+}
+
+button:hover{
+    background: #1b5e20;
+    transform: translateX(5px);
+}
+
+#score{
+    font-size:20px;
+    font-weight:bold;
+    color:darkred;
+    background: #fff3f3;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.simulasi{
+    text-align:center;
+}
+
+#tempDisplay{
+    font-size:42px;
+    margin:15px 0;
+    font-weight: bold;
+    color:red;
+    transition:0.5s;
+}
+
+.bar{
+    width:80%;
+    height:25px;
+    background:#ddd;
+    border-radius:15px;
+    margin: 20px auto;
+    overflow:hidden;
+    border: 2px solid #bbb;
+}
+
+.bar-fill{
+    height:100%;
+    width:30%;
+    background: linear-gradient(to right, orange, red);
+    transition:0.5s;
+}
+
+.btn-sim {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin: 5px;
+}
+
+@keyframes fadeIn{
+    from{opacity:0; transform: translateY(10px);}
+    to{opacity:1; transform: translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌍 PEMANASAN GLOBAL</h1>
+    <p>Materi & Latihan Interaktif</p>
+    
+    <!-- BAGIAN ANGGOTA KELOMPOK -->
+    <div class="kelompok-box">
+        <strong>Disusun Oleh Kelompok:</strong>
+        <ul>
+            <li>• Khairul Faaiz</li>
+            <li>• M. Habieb K. A</li>
+            <li>• Valentino</li>
+        </ul>
+    </div>
+</header>
+
+<section>
+    <h2>1️⃣ Pengertian</h2>
+    <p>Pemanasan global adalah kenaikan suhu rata-rata permukaan bumi secara terus-menerus akibat meningkatnya jumlah gas rumah kaca di atmosfer. Gas-gas ini menahan panas matahari sehingga bumi menjadi semakin panas. Pemanasan global berkaitan erat dengan efek rumah kaca.</p>
+
+    <h2>2️⃣ Proses Terjadinya</h2>
+    <ul>
+        <li>Sinar matahari masuk ke atmosfer bumi.</li>
+        <li>Sebagian panas diserap oleh bumi.</li>
+        <li>Sebagian panas dipantulkan kembali ke atmosfer.</li>
+        <li>Gas rumah kaca menahan panas tersebut.</li>
+        <li>Panas terperangkap → suhu bumi meningkat.</li>
+    </ul>
+
+    <h2>3️⃣ Gas Penyebab</h2>
+    <ul>
+        <li>Karbon dioksida (CO₂)</li>
+        <li>Metana (CH₄)</li>
+        <li>Dinitrogen oksida (N₂O)</li>
+        <li>CFC</li>
+    </ul>
+
+    <h2>4️⃣ Penyebab Utama</h2>
+    <p><b>Aktivitas manusia:</b> Pembakaran bahan bakar fosil, penebangan hutan (deforestasi), pembakaran sampah, dan penggunaan AC yang berlebihan.</p>
+    <p><b>Faktor alam:</b> Letusan gunung berapi dan perubahan radiasi matahari.</p>
+
+    <h2>5️⃣ Dampak Nyata</h2>
+    <p><b>Lingkungan:</b> Es kutub mencair, kenaikan permukaan air laut, dan cuaca ekstrem.</p>
+    <p><b>Manusia:</b> Gagal panen global, krisis air bersih, dan peningkatan risiko penyakit.</p>
+
+    <h2>6️⃣ Cara Mengatasi</h2>
+    <p><b>Individu:</b> Menanam pohon (reboisasi), hemat energi listrik, dan kurangi penggunaan plastik.</p>
+    <p><b>Pemerintah:</b> Transisi ke energi terbarukan dan pembatasan emisi karbon industri.</p>
+</section>
+
+<section>
+    <h2>📝 Latihan Soal</h2>
+
+    <p>1. Apa yang dimaksud dengan pemanasan global?</p>
+    <button onclick="check(this,true)">b. Kenaikan suhu rata-rata permukaan bumi akibat gas rumah kaca</button>
+    <button onclick="check(this,false)">a. Penurunan suhu bumi secara mendadak</button>
+    <button onclick="check(this,false)">c. Perubahan musim hujan yang teratur</button>
+
+    <p>2. Proses terperangkapnya panas matahari di atmosfer bumi disebut...</p>
+    <button onclick="check(this,true)">c. Efek Rumah Kaca</button>
+    <button onclick="check(this,false)">a. Rotasi bumi</button>
+
+    <p>3. Gas utama yang dihasilkan dari asap kendaraan bermotor adalah...</p>
+    <button onclick="check(this,true)">c. Karbon dioksida (CO₂)</button>
+    <button onclick="check(this,false)">a. Oksigen (O₂)</button>
+
+    <p>4. Apa dampak mencairnya es di kutub bagi wilayah pesisir?</p>
+    <button onclick="check(this,true)">a. Permukaan air laut naik dan banjir rob</button>
+    <button onclick="check(this,false)">b. Udara menjadi lebih segar dan sejuk</button>
+
+    <p>5. Manakah upaya individu yang paling efektif mencegah pemanasan global?</p>
+    <button onclick="check(this,true)">c. Menanam banyak pohon dan hemat energi</button>
+    <button onclick="check(this,false)">a. Membakar sampah plastik di halaman</button>
+
+    <br>
+    <p id="score">Skor: 0</p>
+</section>
+
+<section class="simulasi">
+    <h2>🌡️ Simulator Efek Rumah Kaca</h2>
+    <p>Gunakan tombol di bawah untuk melihat dampak emisi terhadap suhu bumi.</p>
+
+    <div id="tempDisplay">30°C</div>
+
+    <div class="bar">
+        <div class="bar-fill" id="barFill"></div>
+    </div>
+
+    <button class="btn-sim" onclick="addEmission()" style="background: darkred;">🔥 Tambah Emisi</button>
+    <button class="btn-sim" onclick="reduceEmission()" style="background: #2196F3;">❄️ Kurangi Emisi</button>
+</section>
+
+<script>
+let score = 0;
+let answered = [false, false, false, false, false];
+
+function check(btn, correct){
+    // Mencegah klik berulang pada soal yang sama untuk manipulasi skor
+    const parent = btn.parentNode;
+    if(btn.disabled) return;
+
+    if(correct){
+        score += 20;
+        alert("Jawaban Benar! Mantap 👍");
+        btn.style.background = "#2e7d32";
+    } else {
+        alert("Jawaban Salah. Ayo baca materinya lagi! ❌");
+        btn.style.background = "#c62828";
+    }
+    
+    // Nonaktifkan tombol di soal yang sama setelah dijawab
+    const buttons = parent.querySelectorAll('button');
+    buttons.forEach(b => b.disabled = true);
+
+    document.getElementById("score").innerText = "Skor: " + score;
+}
+
+let temp = 30;
+function updateTemp(){
+    document.getElementById("tempDisplay").innerText = temp + "°C";
+    // Logika bar agar dinamis
+    let width = (temp - 20) * 5; 
+    if(width > 100) width = 100;
+    if(width < 5) width = 5;
+    document.getElementById("barFill").style.width = width + "%";
+    
+    // Ubah warna teks berdasarkan suhu
+    if(temp > 40) document.getElementById("tempDisplay").style.color = "darkred";
+    else document.getElementById("tempDisplay").style.color = "red";
+}
+
+function addEmission(){
+    temp += 1;
+    updateTemp();
+}
+
+function reduceEmission(){
+    temp -= 1;
+    if(temp < 20) temp = 20;
+    updateTemp();
+}
+</script>
+
+</body>
+</html>
